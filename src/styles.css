@@ -1,2 +1,15 @@
-  .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+:root {
+  --primary-cyan: hsl(179, 62%, 43%);
+  --primary-yellow: hsl(71, 73%, 54%);
+  --neutral-grey: hsl(204, 43%, 93%);
+  --neutral-blue: hsl(218, 22%, 67%);
+  --main-font: font-family: 'Karla', sans-serif;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
