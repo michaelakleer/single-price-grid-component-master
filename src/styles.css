@@ -21,14 +21,22 @@ body {
   border-top-right-radius: 6px;
 }
 
+.subscription,
+.why-us {
+  color: #fff;
+}
+
 .subscription {
   background-color: hsl(179, 62%, 45%);
-  color: #fff;
+}
+
+.subscription h2,
+h3 {
+  padding: 0 12px 0;
 }
 
 .why-us {
   background-color: hsl(179, 62%, 47%);
-  color: #fff;
 }
 
 h1 {
@@ -60,6 +68,7 @@ ul {
 
 li {
   font-size: 14px;
+  opacity: 0.75;
 }
 
 .dollar {
@@ -70,12 +79,16 @@ li {
   opacity: 0.5;
 }
 
+button {
+  margin: 0 12px 0;
+}
+
 .btn {
   color: #fff;
 }
 
 .btn-yellow {
-  background-color: var(--primary-yellow) !important;
+  background-color: var(--primary-yellow);
 }
 
 .attribution {
