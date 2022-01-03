@@ -43,6 +43,7 @@ h1 {
   color: var(--primary-cyan);
   font-size: 24px;
   font-weight: 700;
+  margin-bottom: 18px;
 }
 
 h2 {
@@ -51,14 +52,17 @@ h2 {
 
 .summary h2 {
   color: var(--primary-yellow);
+  margin-bottom: 13px;
 }
 
-h3 {
+h3,
+p {
   font-size: 16px;
 }
 
-.summary h3 {
+.summary p {
   color: var(--neutral-blue);
+  margin: 0;
 }
 
 ul {
@@ -81,6 +85,7 @@ li {
 
 button {
   margin: 0 12px 0;
+  padding: 10px 0 !important;
 }
 
 .btn {
