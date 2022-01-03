@@ -12,12 +12,13 @@ body {
 }
 
 .container {
-  border: 1px #000 solid;
   width: 50%;
 }
 
 .summary {
   background-color: #fff;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
 }
 
 .subscription {
@@ -40,8 +41,16 @@ h2 {
   font-size: 18px;
 }
 
+.summary h2 {
+  color: var(--primary-yellow);
+}
+
 h3 {
   font-size: 16px;
+}
+
+.summary h3 {
+  color: var(--neutral-blue);
 }
 
 ul {
@@ -51,6 +60,22 @@ ul {
 
 li {
   font-size: 14px;
+}
+
+.dollar {
+  font-size: 32px;
+}
+
+.per-month {
+  opacity: 0.5;
+}
+
+.btn {
+  color: #fff;
+}
+
+.btn-yellow {
+  background-color: var(--primary-yellow) !important;
 }
 
 .attribution {
