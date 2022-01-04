@@ -9,12 +9,16 @@
 body {
   background-color: var(--neutral-gray);
   font-family: var(--main-font);
+  display: flex;
+  justify-content: center;
+  align-items: center;
   min-height: 100vh;
 }
 
 .container {
   max-width: 635px;
   max-height: 475px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .summary {
@@ -121,10 +125,42 @@ button {
   background-color: var(--primary-yellow);
 }
 
+footer {
+  display: none;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 767px) {
+  body {
+    min-height: 0;
+    margin: 25px 0;
+  }
+
+  .container {
+    margin: 0 30px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  .summary h2 {
+    font-size: 15px;
+  }
+
+  .summary p {
+    font-size: 14px;
+  }
+
+  .subscription h2,
+  .why-us h2 {
+    font-size: 18px;
+  }
 }
